@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Utiles">
+      <UniqueIdentifier>{b40e1bd5-1d1b-4c63-a750-17e312fd3f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{759d263a-ddf8-402d-86c6-46b3688c4ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{f48c8b37-0357-4676-b9b3-d0ffe14e8195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChatServer.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerUtile.cpp">
+      <Filter>소스 파일\Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>소스 파일\Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreGlobal.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTLS.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionManager.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlappedEx.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerUtile.h">
+      <Filter>소스 파일\Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일\Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePch.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>소스 파일\Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGlobal.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTLS.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionManager.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlappedEx.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

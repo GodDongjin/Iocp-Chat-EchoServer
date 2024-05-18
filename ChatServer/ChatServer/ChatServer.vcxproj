@@ -143,10 +143,7 @@
     <ClCompile Include="CoreGlobal.cpp" />
     <ClCompile Include="CorePch.cpp" />
     <ClCompile Include="CoreTLS.cpp" />
-    <ClCompile Include="OverlappedEx.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="Core\OverlappedEx.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="ServerUtile.cpp" />
     <ClCompile Include="Session.cpp" />
@@ -157,10 +154,7 @@
     <ClInclude Include="CoreGlobal.h" />
     <ClInclude Include="CorePch.h" />
     <ClInclude Include="CoreTLS.h" />
-    <ClInclude Include="OverlappedEx.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="Core\OverlappedEx.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="ServerUtile.h" />
     <ClInclude Include="Session.h" />

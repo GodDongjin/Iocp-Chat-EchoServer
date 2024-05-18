@@ -1,9 +1,9 @@
 #pragma once
 #include <iostream>
 #include <assert.h>
-#include "CorePch.h"
-#include "ThreadManager.h"
-#include "SessionManager.h"
+#include "Core/CorePch.h"
+#include "Utiles/ThreadManager.h"
+#include "Session/SessionManager.h"
 
 class Server
 {

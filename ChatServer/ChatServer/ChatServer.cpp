@@ -1,13 +1,8 @@
 ﻿#include <iostream>
 #include <assert.h>
-#include "CorePch.h"
-#include "ThreadManager.h"
-#include "Server.h"
-
-void test()
-{
-
-}
+#include "Core/CorePch.h"
+#include "Utiles/ThreadManager.h"
+#include "Server/Server.h"
 
 int main()
 {

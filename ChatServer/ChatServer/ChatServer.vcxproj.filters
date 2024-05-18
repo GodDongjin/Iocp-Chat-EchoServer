@@ -47,8 +47,8 @@
     <ClCompile Include="SessionManager.cpp">
       <Filter>소스 파일\Main</Filter>
     </ClCompile>
-    <ClCompile Include="OverlappedEx.cpp">
-      <Filter>소스 파일\Main</Filter>
+    <ClCompile Include="Core\OverlappedEx.cpp">
+      <Filter>소스 파일\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -79,8 +79,8 @@
     <ClInclude Include="SessionManager.h">
       <Filter>소스 파일\Main</Filter>
     </ClInclude>
-    <ClInclude Include="OverlappedEx.h">
-      <Filter>소스 파일\Main</Filter>
+    <ClInclude Include="Core\OverlappedEx.h">
+      <Filter>소스 파일\Core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

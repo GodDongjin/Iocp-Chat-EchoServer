@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 #include <assert.h>
-#include "CorePch.h"
-#include "Session.h"
+#include "Core/CorePch.h"
+#include "Session/Session.h"
 
 class SessionManager
 {

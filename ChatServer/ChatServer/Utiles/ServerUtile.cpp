@@ -1,5 +1,5 @@
 #include "ServerUtile.h"
-#include "CorePch.h"
+#include "../Core/CorePch.h"
 
 
 LPFN_CONNECTEX		ServerUtile::ConnectEx = nullptr;

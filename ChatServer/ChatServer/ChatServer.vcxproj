@@ -139,28 +139,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ChatServer.cpp" />
-    <ClCompile Include="CoreGlobal.cpp" />
-    <ClCompile Include="CorePch.cpp" />
-    <ClCompile Include="CoreTLS.cpp" />
-    <ClCompile Include="Core\OverlappedEx.cpp" />
-    <ClCompile Include="Server.cpp" />
-    <ClCompile Include="ServerUtile.cpp" />
-    <ClCompile Include="Session.cpp" />
-    <ClCompile Include="SessionManager.cpp" />
-    <ClCompile Include="ThreadManager.cpp" />
+    <ClCompile Include="Server/ChatServer.cpp" />
+    <ClCompile Include="Core/CoreGlobal.cpp" />
+    <ClCompile Include="Core/CorePch.cpp" />
+    <ClCompile Include="Core/CoreTLS.cpp" />
+    <ClCompile Include="Core/OverlappedEx.cpp" />
+    <ClCompile Include="Server/Server.cpp" />
+    <ClCompile Include="Utiles/ServerUtile.cpp" />
+    <ClCompile Include="Session/Session.cpp" />
+    <ClCompile Include="Session/SessionManager.cpp" />
+    <ClCompile Include="Utiles/ThreadManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CoreGlobal.h" />
-    <ClInclude Include="CorePch.h" />
-    <ClInclude Include="CoreTLS.h" />
-    <ClInclude Include="Core\OverlappedEx.h" />
-    <ClInclude Include="Server.h" />
-    <ClInclude Include="ServerUtile.h" />
-    <ClInclude Include="Session.h" />
-    <ClInclude Include="SessionManager.h" />
-    <ClInclude Include="ThreadManager.h" />
-    <ClInclude Include="Types.h" />
+    <ClInclude Include="Core/CoreGlobal.h" />
+    <ClInclude Include="Core/CorePch.h" />
+    <ClInclude Include="Core/CoreTLS.h" />
+    <ClInclude Include="Core/OverlappedEx.h" />
+    <ClInclude Include="Server/Server.h" />
+    <ClInclude Include="Utiles/ServerUtile.h" />
+    <ClInclude Include="Session/Session.h" />
+    <ClInclude Include="Session/SessionManager.h" />
+    <ClInclude Include="Utiles/ThreadManager.h" />
+    <ClInclude Include="Utiles/Types.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

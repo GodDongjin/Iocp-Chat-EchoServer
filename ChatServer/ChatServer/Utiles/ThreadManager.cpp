@@ -1,7 +1,7 @@
-#include "CorePch.h"
+#include "../Core/CorePch.h"
 #include "ThreadManager.h"
-#include "CoreTLS.h"
-#include "CoreGlobal.h"
+#include "../Core/CoreTLS.h"
+#include "../Core/CoreGlobal.h"
 
 /*------------------
 	ThreadManager

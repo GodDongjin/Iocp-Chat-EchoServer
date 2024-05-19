@@ -1,5 +1,5 @@
 #pragma once
-#include "CorePch.h"
+#include "../Core/CorePch.h"
 #include "Types.h"
 
 class ServerUtile

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Types.h"
+#include "../Utiles/Types.h"
 #include "CoreTLS.h"
 #include "CoreGlobal.h"
 
@@ -22,6 +22,6 @@
 using namespace std;
 
 #include <assert.h>
-#include "Utiles/ServerUtile.h"
+#include "../Utiles/ServerUtile.h"
 
 #pragma comment(lib, "ws2_32.lib")

@@ -12,74 +12,75 @@
     <Filter Include="소스 파일\Utiles">
       <UniqueIdentifier>{b40e1bd5-1d1b-4c63-a750-17e312fd3f69}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Main">
-      <UniqueIdentifier>{759d263a-ddf8-402d-86c6-46b3688c4ca1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Core">
       <UniqueIdentifier>{f48c8b37-0357-4676-b9b3-d0ffe14e8195}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Session">
+      <UniqueIdentifier>{1c6a2443-1bf9-4a16-934b-fdad62a28b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Server">
+      <UniqueIdentifier>{c94fc129-d6ad-42c6-89a4-93c7f3a2d5c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChatServer.cpp">
-      <Filter>소스 파일\Main</Filter>
+    <ClCompile Include="Core/OverlappedEx.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ServerUtile.cpp">
+    <ClCompile Include="Utiles/ThreadManager.cpp">
       <Filter>소스 파일\Utiles</Filter>
     </ClCompile>
-    <ClCompile Include="CorePch.cpp">
-      <Filter>소스 파일\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreadManager.cpp">
+    <ClCompile Include="Utiles/ServerUtile.cpp">
       <Filter>소스 파일\Utiles</Filter>
     </ClCompile>
-    <ClCompile Include="CoreGlobal.cpp">
+    <ClCompile Include="Session/Session.cpp">
+      <Filter>소스 파일\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Session/SessionManager.cpp">
+      <Filter>소스 파일\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Server/ChatServer.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server/Server.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Core/CoreGlobal.cpp">
       <Filter>소스 파일\Core</Filter>
     </ClCompile>
-    <ClCompile Include="CoreTLS.cpp">
+    <ClCompile Include="Core/CorePch.cpp">
       <Filter>소스 파일\Core</Filter>
     </ClCompile>
-    <ClCompile Include="Server.cpp">
-      <Filter>소스 파일\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Session.cpp">
-      <Filter>소스 파일\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="SessionManager.cpp">
-      <Filter>소스 파일\Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Core\OverlappedEx.cpp">
+    <ClCompile Include="Core/CoreTLS.cpp">
       <Filter>소스 파일\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ServerUtile.h">
+    <ClInclude Include="Core/OverlappedEx.h" />
+    <ClInclude Include="Utiles/Types.h">
       <Filter>소스 파일\Utiles</Filter>
     </ClInclude>
-    <ClInclude Include="Types.h">
+    <ClInclude Include="Utiles/ThreadManager.h">
       <Filter>소스 파일\Utiles</Filter>
     </ClInclude>
-    <ClInclude Include="CorePch.h">
-      <Filter>소스 파일\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="ThreadManager.h">
+    <ClInclude Include="Utiles/ServerUtile.h">
       <Filter>소스 파일\Utiles</Filter>
     </ClInclude>
-    <ClInclude Include="CoreGlobal.h">
+    <ClInclude Include="Session/Session.h">
+      <Filter>소스 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Session/SessionManager.h">
+      <Filter>소스 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Server/Server.h">
+      <Filter>소스 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Core/CoreGlobal.h">
       <Filter>소스 파일\Core</Filter>
     </ClInclude>
-    <ClInclude Include="CoreTLS.h">
+    <ClInclude Include="Core/CorePch.h">
       <Filter>소스 파일\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Server.h">
-      <Filter>소스 파일\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Session.h">
-      <Filter>소스 파일\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="SessionManager.h">
-      <Filter>소스 파일\Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Core\OverlappedEx.h">
+    <ClInclude Include="Core/CoreTLS.h">
       <Filter>소스 파일\Core</Filter>
     </ClInclude>
   </ItemGroup>

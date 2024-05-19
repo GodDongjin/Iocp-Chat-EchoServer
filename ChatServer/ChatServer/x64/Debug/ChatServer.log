@@ -1,19 +1,4 @@
-﻿  ChatServer.cpp
-C:\Users\ppa01\Desktop\Iocp-Chat-EchoServer\ChatServer\ChatServer\Session\Session.h(3,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'OverlappedEx.h': No such file or directory
-  CoreGlobal.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'CoreGlobal.cpp': No such file or directory
-  CorePch.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'CorePch.cpp': No such file or directory
-  CoreTLS.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'CoreTLS.cpp': No such file or directory
-  Server.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'Server.cpp': No such file or directory
-  ServerUtile.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'ServerUtile.cpp': No such file or directory
-  Session.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'Session.cpp': No such file or directory
-  SessionManager.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'SessionManager.cpp': No such file or directory
+﻿  Server.cpp
   ThreadManager.cpp
-c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'ThreadManager.cpp': No such file or directory
   코드를 생성하고 있습니다...
+  ChatServer.vcxproj -> C:\Users\ppa01\Desktop\test\ChatServer\x64\Debug\ChatServer.exe
